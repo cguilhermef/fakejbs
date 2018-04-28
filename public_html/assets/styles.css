@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/04/2018, 09:06:18
+    Author     : 201310383
+*/
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body,
+.container-fluid{
+  height: 100%;
+}
+
+.home,
+.start {
+  height: 100%;
+}
+
+.home__introduction {
+  align-items: center;
+  background-color: #521e52;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.start__right {
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, .15);
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.start__left {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.user-options {
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.frm-busca {
+  display: flex;
+  flex-flow: column;
+  flex: 0 0 auto;
+}
+
+.atas {
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding: 0 0 1rem;
+}
+
+.frm-ata {
+  max-width: 100%;
+  width: 768px;
+}
+
+.form-control-label {
+  font-weight: 700;
+}
+
+.editing__left {
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, .15);
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  overflow: hidden;
+  overflow-y: auto;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <div class="d-flex align-items-center start">
+        <div class="col editing__left">
+          <h4 class="mb-3">Criar ata</h4>
+          <form class="frm-ata mb-5">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="form-control-label">Título da reunião</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="form-control-label">Palavras-chave</label>
+                  <textarea class="form-control" rows="1"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="form-control-label">Emissão</label>
+                  <input type="date" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="form-control-label">Início da reunião</label>
+                  <input type="date" class="form-control">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="form-control-label">Término da reunião</label>
+                  <input type="date" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="form-control-label">Setor da empresa</label>
+                  <select class="form-control">
+                    <option value="">Selecione</option>
+                    <option value="1">Comercial</option>
+                    <option value="2">Departamento pessoal</option>
+                    <option value="3">Financeiro</option>
+                    <option value="4">Recursos Humanos</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <strong class="d-flex mb-2">Participantes</strong>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Email</th>
+                      <th>Telefone</th>
+                      <th>Empresa/Setor</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="5">
+                        <p>Nenhum participante cadastrado</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-primary btn-sm">Adicionar participante</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col">
+                <div class="form-group">
+                  <label class="form-control-label">Pauta</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto ml-auto">
+                <button class="btn btn-success">Salvar ata</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-3 start__left">
+          <div class="user-options">
+            Olá Usuário!
+            <a href="index.html">Sair</a>
+          </div>
+          <form class="frm-busca">
+            <strong class="mb-3">Últimas atas</strong>
+            <div class="form-group">
+              <label class="form-control-label">Buscar</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <button class="btn btn-secondary btn-sm">Limpar</button>
+              </div>
+              <div class="col-auto ml-auto">
+                <button class="btn btn-primary btn-sm">Buscar</button>
+              </div>
+            </div>
+          </form>
+          <div class="list-group atas mt-5">
+            <div class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Definições do pro(...)</h5>
+                <small>3 dias atrás</small>
+              </div>
+              <p class="mb-1">Donec id elit non mi porta gravida at eget (...)</p>
+              <a href="ata.html">acessar a ata</a>
+              <div class="row justify-content-between mt-3">
+                <div class="col-auto">
+                  <button class="btn btn-success btn-sm">Concluir ata</button>
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-warning btn-sm">Solicitar sugestões</button>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Definições do pro(...)</h5>
+                <small>3 dias atrás</small>
+              </div>
+              <p class="mb-1">Donec id elit non mi porta gravida at eget (...)</p>
+              <a href="ata.html">acessar a ata</a>
+              <div class="row justify-content-between mt-3">
+                <div class="col-auto">
+                  <button class="btn btn-success btn-sm">Concluir ata</button>
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-warning btn-sm">Solicitar sugestões</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-sm justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
